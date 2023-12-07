@@ -11,10 +11,8 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <section
-      class="flex mx-[65px] my-[150px] bg-[#49bce3] overflow-hidden text-white rounded-xl"
-    >
+  <body class="mx-[125px]">
+    <section class="flex my-[120px] bg-[#49bce3] text-white rounded-lg">
       <div class="p-[110px]">
         <h1 class="text-7xl font-medium">
           The <br />
@@ -41,12 +39,42 @@
         />
       </div>
     </section>
-    <main class="bg-[#1077c3] w-[250px] h-[312px] ml-16  rounded-[10px] py-[17px] text-center leading-[30px]">
-      <nav class="">
-        <a class="" href="">Upcoming Match</a><br>
-        <a class="" href="">All Group</a><br>
-        <a href="">Blog</a>
-      </nav>
+    <main class="bg-[#49bce3] w-[250px] h-[312px] rounded-[10px] text-center">
+      <!-- ...............details................. -->
+
+      <div class="grid grid-rows-3">
+        <button
+          class="mt-8 p-4 bg-white rounded-lg mx-4 text-lg font-extrabold text-[#56042c]"
+        >
+          <a href=""></a> Upcoming Match
+        </button>
+        <button
+          class="mt-8 p-4 bg-white rounded-lg mx-4 text-lg font-extrabold text-[#56042c]"
+        >
+          All Groups
+        </button>
+        <button
+          class="mt-8 p-4 bg-[#1077c3] rounded-lg mx-4 text-lg font-extrabold text-[#fff]"
+        >
+          Blogs
+        </button>
+      </div>
+
+      <!--.............. match time..................... -->
+
+      <div>
+        <div class="ring">
+          <img src="assets/Blog Image.png" alt="" />
+          <button
+            class="px-[19px] py-[8px] mt-4 mr-28 rounded-[5px] text-white font-bold bg-[#49bce3]"
+          >
+            Transfer
+          </button>
+          <p class="block mr-28 text-lg font-bold">
+            Transfer Live: Chlesea in talks over Kimpenbe transfer
+          </p>
+        </div>
+      </div>
     </main>
   </body>
 </html>
