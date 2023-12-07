@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>upcoming-match</title>
-</head>
-<body>
-    <h1></h1>
-</body>
+    <script
+      src="https://kit.fontawesome.com/0030e36d5f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="">
+    <section
+      class="flex my-[135px] mx-auto max-w-5xl bg-[#49bce3] overflow-hidden text-white rounded-lg"
+    >
+      <div class="max-w-[50%] py-24 pl-24">
+        <h1 class="text-7xl font-medium">
+          The <br />
+          Greatest <br />
+          show on <br />
+          the earth
+        </h1>
+        <p class="text-2xl mt-4">
+          The 2022 World Cup in Qatar kicks off on Monday November 21 at the Al
+          Thumama Stadium
+        </p>
+        <button
+          class="mt-4 px-[16px] py-[25px] bg-[#1077c3] rounded-[5px] text-lg"
+        >
+          Watch Live
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+      <div
+        class="w-full hover:scale-105 transition-transform duration-[0.5s] ease-out"
+      >
+        <img
+          class="w-full pl-4 pr-8 pt-[50%]"
+          src="assets/Banner Image.png"
+          alt=""
+        />
+      </div>
+    </section>
+    <main class="w-full max-w-5xl mx-auto flex gap-4">
+      <!--................ details................ -->
+      <div
+        class="grid grid-rows-3 px-6  rounded-[10px] bg-[#49bce3] min-w-[300px] h-[310px]"
+      >
+        <button
+          class="my-6 p-4 bg-white rounded-lg m-4 text-lg font-extrabold text-[#56042c]"
+        >
+          <a href="upcoming-match.html"> Upcoming Match</a>
+        </button>
+        <button
+          class="my-6p-4 bg-white rounded-lg m-4 text-lg font-extrabold text-[#56042c]"
+        >
+          All Groups
+        </button>
+        <button
+          class="my-6 p-4 bg-[#1077c3] rounded-lg m-4 text-lg font-extrabold text-[#fff]"
+        >
+          <a href="index.html">Blogs</a>
+        </button>
+      </div>
+
+      <!--............. upcoming-match............. -->
+
+     <div class="grid grid-cols-1 md:grid-cols-2 gap-5 lg:grid-cols-3">
+       <div class="ring pt-6  w-full h-48">
+        <div class="flex">
+          <div class="px-3">
+            <img class="" src="assets/germany Flag.png" alt="" />
+          </div>
+          <h4 class="pt-2 pl-2 pr-2">VS</h4>
+          <div class="px-3"><img src="assets/Flag.png" alt="" /></div>
+        </div>
+        <h3 class="text-2xl text-center py-3 px-3 font-bold text-[#1077c3]">Germany vs France</h3>
+        <p class="text-center text-lg">April 01, 2023, 1:00 AM</p>
+      </div>
+      
+     </div>
+    </main>
+  </body>
 </html>
